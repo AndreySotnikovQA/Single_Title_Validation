@@ -1,0 +1,39 @@
+--->>>
+//Firefox WebDriver
+Andreys-MacBook-Pro:target tester$ java -jar Single_Title_Validation-1.1-FirefoxDriver-jar-with-dependencies.jar "https://www.google.com/|Google"
+Test Case ID: 		TC-001.01
+URL: 			https://www.google.com/
+Title Expected: 	Google
+Title Actual: 		Google
+Test Case Result: 	PASSED
+<<<---
+
+--->>>
+//Firefox WebDriver
+Andreys-MacBook-Pro:target tester$ java -jar Single_Title_Validation-1.1-FirefoxDriver-jar-with-dependencies.jar "https://www.google.com/|G"
+Test Case ID: 		TC-001.01
+URL: 			https://www.google.com/
+Title Expected: 	G
+Title Actual: 		Google
+Test Case Result: 	FAILED
+<<<---
+
+--->>>
+//HtmlUnit
+Andreys-MacBook-Pro:target tester$ java -jar Single_Title_Validation-1.1-HtmlUnit-jar-with-dependencies.jar "https://www.google.com/|Google"
+Test Case ID: 		TC-001.01
+URL: 			https://www.google.com/
+Title Expected: 	Google
+Title Actual: 		Google
+Test Case Result: 	PASSED
+<<<---
+
+--->>>
+//HtmlUnit
+Andreys-MacBook-Pro:target tester$ java -jar Single_Title_Validation-1.1-HtmlUnit-jar-with-dependencies.jar "https://www.google.com/|G"
+Test Case ID: 		TC-001.01
+URL: 			https://www.google.com/
+Title Expected: 	G
+Title Actual: 		Google
+Test Case Result: 	FAILED
+<<<---
